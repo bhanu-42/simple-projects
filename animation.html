@@ -1,0 +1,45 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Example</title>
+    <style>
+        .size{
+            width:250px;
+            height:250px;
+        }
+        b1{
+            background-color: violet;
+            padding: 15px 32px;
+            border: black;
+        }
+        b2{
+            background-color: violet;
+            padding: 15px 32px;
+            border: black;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Animation in Javascript</h1>
+    <img src="images/Baratie_Infobox.webp" id="img" class="size" alt="Javascript" width="400px" onmouseover="zoomin()" onmouseout="zoomout()"><br>
+    <button type="button" class="b1" onclick="fadein()">Fadein</button>
+    <button type="button" class="b2" onclick="fadeout()">Fadeout</button>
+    <script src="/animation.js"></script>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <h3>Send us a message!</h3>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Name:" required><br>
+                <input type="email" id="email" name="email" placeholder="Email:" required><br>
+                <textarea id="message" name="message" placeholder="Message:" rows="4" cols="50" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

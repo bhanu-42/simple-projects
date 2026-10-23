@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background-color:#dd644f;
+    color:#0b0101;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background-color: #c7b59f;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a{
+    color: #080000;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover{
+    background-color: #666;
+}
+
+.zoomable-image{
+    transition: transform 0.3s ease;
+}
+
+.zoomable-image:hover{
+    transform: scale(1.2);
+}
+
+nav a:hover{
+    background-color: #666;
+}
+
+.about-setion{
+    padding: 20px;
+    background-color: #afbe63;
+}
+
+.program-section{
+    padding:20px;
+    background-color: #e0d9bd;
+}
+
+.activities-section{
+    padding:20px;background-color: #e0d9bd;
+}
+
+.contact-section{
+    padding:20px;
+    background-color: #97e7df;
+}
+
+h2{
+    color: #333;
+    text-align: center;
+}
+
+p{
+    color: #0c0a0a;
+}
+
+#home{
+    height: 100vh;
+    background-image:url('images/Baratie_Infobox.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content, .programs-content, .activities-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   gap: 20px;
+}
+
+.about-content img, .programs-content img, .activities-content img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-form{
+    text-align:center;
+}
+
+input[type="text"], input[type="email"], textarea{
+    padding:10px;
+    width: 100px;
+    margin: 10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color:#333;
+    color:#fff;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    button:hover{
+        background-color:#666;
+    }
+}
+
+footer{
+    background-color:#333;
+    color:#fff;
+    text-align:center;
+    padding:10px 0;
+}
+
+#submit-button{
+    background-color:#333;
+    color:#fff;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+}
+
+#submit-button:hover{
+        background-color:#666;
+        cursor: pointer;
+    }
